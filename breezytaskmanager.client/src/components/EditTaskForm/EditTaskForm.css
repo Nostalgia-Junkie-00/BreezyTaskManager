@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+/*
+.taskForm {
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #52332B;
+}*/
+
+.task-input {
+    height: 100%;
+    width: 80%;
+    padding: 10px;
+    background: #D2ACA3;
+    border: 2px solid #FCAE9A;
+    color: white;
+    font-family: "Reenie Beanie", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+    border-radius: 10px 0 0 10px;
+}
+
+.task-btn {
+    height: 100%;
+    width: 20%;
+    background-color: #FCAE9A;
+    border: 2px solid #FCAE9A;
+    font-family: "Reenie Beanie", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+    border-radius: 0 10px 10px 0;
+}

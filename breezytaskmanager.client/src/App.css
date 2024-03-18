@@ -1,0 +1,52 @@
+﻿.flex-container {
+    display: flex;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 100%;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    font-family: "Miltonian", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    color: white;
+    font-size: 50px;
+    background-color: #FCAE9A;
+    border: 5px solid white;
+    box-shadow: 0 0 10px white;
+    top: 30px;
+    left: 415px;
+    transform: rotate(-15deg);
+}
+.app {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url('assets/Breezy_Background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

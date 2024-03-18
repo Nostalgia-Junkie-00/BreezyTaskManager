@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+.task-container {
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #7D5E56;
+    box-shadow: 1px 1px 10px white;
+    border: 2px solid white;
+    margin-bottom: 10px;
+
+}
+.taskCompleted-container {
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #d6bbb4; 
+    margin-bottom: 10px;
+}
+.task-checkbox {
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.task-texts {
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+h2 {
+    font-size: 25px;
+    font-weight: 800;
+}
+p {
+    font-size: 20px;
+    font-weight: 800;
+}
+.task-index {
+    font-size: 40px;
+    font-weight: 800;
+}
+.task-icons {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.notComplete {
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    border: 3px solid white;
+}
